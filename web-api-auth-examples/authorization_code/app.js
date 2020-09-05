@@ -13,9 +13,13 @@ var cors = require('cors');
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
 
-var client_id = '999a526354aa450faa6ecf38b37c6825'; // Your client id
-var client_secret = 'c55ba0e80baf4852b68d5dd8f9efd2f2'; // Your secret
+const spotifyAuth = require('../secret.js');
+
+var client_id = spotifyAuth.clientID; // Your client id
+var client_secret = spotifyAuth.secret; // Your secret
 var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
+
+
 
 /**
  * Generates a random string containing numbers and letters

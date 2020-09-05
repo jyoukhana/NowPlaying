@@ -13,7 +13,7 @@ var cors = require('cors');
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
 
-const spotifyAuth = require('../secret.js');
+const spotifyAuth = require('../../secret');
 
 var client_id = spotifyAuth.clientID; // Your client id
 var client_secret = spotifyAuth.secret; // Your secret

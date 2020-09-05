@@ -1,7 +1,7 @@
 ## About this project
 
 This project shows what you're currently listening to on Spotify when you log in with your account. NPM install all dependencies on web-auth folder and the now-playing folder.
-Run NPM start in both directories. This project was built using React and Spotify's web API.
+Run NPM start in both directories. This project was built using React and Spotify's web API. You should probably get your own client secret token
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -71,27 +71,6 @@ class App extends Component {
 
   render(){
     return (
-      // <div className="App">
-      //   <a href='http://localhost:8888'>
-      //     <button>Log in with your Spotify account</button>
-      //   </a>
-
-      //   <div>
-      //     <img src={ this.state.nowPlaying.image } style={{ width: 400 }}/>
-      //   </div>
-
-      //   <div>
-      //     Album: { this.state.nowPlaying.album }
-      //   </div>
-
-      //   <div>
-      //     Now Playing "{ this.state.nowPlaying.name }" by { this.state.nowPlaying.artists }
-      //   </div>
-
-      //   <button onClick={() => this.getNowPlaying()}>
-      //     Check song that user is now playing
-      //   </button>
-      // </div>
 
       <div>
         <a href='http://localhost:8888'>
